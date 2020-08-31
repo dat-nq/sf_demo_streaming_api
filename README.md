@@ -1,4 +1,14 @@
 # Salesforce Streaming API
+## How to run Demo?
+- create new project with manifest
+- set default org
+- download demo
+- copy demo/force-app/main/default -> newproject/force-app/main/default
+- copy manifest/package.xml -> manifest/package.xml
+- right click on package.xml -> select "Deploy source in manifest to Org"
+- Open default org
+- Open "Demo Streaming API" app
+
 ## What is Streaming API?
 - Streaming API enables streaming of events using push technology and provides a subscription mechanism for receiving events in near real time.
 - We can think of Streaming API as a radar which keeps tracks of events.
