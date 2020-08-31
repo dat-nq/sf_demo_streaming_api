@@ -1,0 +1,12 @@
+<template>
+    <lightning-card title="Account list" icon-name="custom:custom63">
+        <div slot="actions">
+            <lightning-button icon-name="action:remove" label="Clear Data" onclick={deleteData}></lightning-button>
+        </div>
+        <div class="slds-var-m-around_medium">
+            <template for:each={accounts} for:item="_acc">
+                <p key={_acc.Id}>{_acc.Name}</p>
+            </template>
+        </div>
+    </lightning-card>
+</template>

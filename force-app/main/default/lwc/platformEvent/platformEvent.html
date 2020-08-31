@@ -1,0 +1,10 @@
+<template>
+    <lightning-card title={evtType} icon-name="custom:custom63">
+        <div class="slds-var-m-around_medium">
+            channelName: {channelName}<br />
+            evtType: {evtType}<br />
+            message: {message}<br />
+            <lightning-button label="Test Event" onclick={handlePublishEvent}></lightning-button>
+        </div>
+    </lightning-card>
+</template>

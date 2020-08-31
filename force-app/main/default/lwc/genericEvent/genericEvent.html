@@ -1,0 +1,12 @@
+<template>
+    <lightning-card title={evtType} icon-name="custom:custom63">
+        <div class="slds-var-m-around_medium">
+            channelName: {channelName}<br />
+            evtType: {evtType}<br />
+            message: {message}<br />
+            <lightning-button label="Test Event" onclick={handlePublishEvent}></lightning-button>
+        </div>
+        <div>Currently, it is impossible to publish generic streaming event programmatically from lwc. Click <a href="https://developer.salesforce.com/docs/atlas.en-us.api_streaming.meta/api_streaming/generate_event_using_rest.htm" target="_blank">here</a> to see more detail
+        </div>
+    </lightning-card>
+</template>

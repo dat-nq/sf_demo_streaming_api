@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>DemoStreammingAPI</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <members>StreammingAPI</members>
+        <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>StreammingAPI</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>Test_Event__e</members>
+        <name>CustomObject</name>
+    </types>
+
+    <types>
+        <members>DemoEvent</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>demoEvent</members>
+        <members>genericEvent</members>
+        <members>platformEvent</members>
+        <members>pushtopicEvent</members>
+        <name>LightningComponentBundle</name>
+    </types>
+    <version>48.0</version>
+</Package>
