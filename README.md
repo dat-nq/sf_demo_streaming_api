@@ -8,6 +8,7 @@
 - right click on package.xml -> select "Deploy source in manifest to Org"
 - Open default org
 - Open "Demo Streaming API" app
+<img src="Salesforce Streaming API Demo.gif"/>
 
 ## What is Streaming API?
 - Streaming API enables streaming of events using push technology and provides a subscription mechanism for receiving events in near real time.
